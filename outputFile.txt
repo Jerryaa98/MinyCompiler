@@ -1,0 +1,24 @@
+==================  Abstract Syntax Tree ================
+h:
+ssp 6
+sep 50
+ujp h_begin
+f:
+Parameter name :x proc/func name is f
+ssp 7
+sep 50
+ujp f_begin
+f_begin :
+ldc 2
+mul
+sto
+ldc 5
+sub
+sto
+retf
+h_begin :
+mst 0
+ldc 5
+ldc 5
+cup 2 f
+stp
